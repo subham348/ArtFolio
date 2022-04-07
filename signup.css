@@ -1,0 +1,21 @@
+body{
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #FFDDAD;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+}
+.links{
+    /*background-color: rgb(15, 15, 15);
+    border-radius: 5px;*/
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    float: right;
+}
+a{
+    color: rgb(230, 104, 42);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
