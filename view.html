@@ -11,7 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="view.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,16 +21,47 @@
   </head>
   <body>
     <div class="links">
-      <a href="index.html" style="font-size: 150%; text-decoration-line: none">
-        Back to Home Page
-      </a>
+      <a href="index.html"> Back to Home Page </a>
     </div>
     <br />
-    <div class="container">
+    <div class="container description">
       <div class="row">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+        <div class="col col-text-size">Name: Medha Thakur</div>
+        <div class="col col-text-size">Location: Durgapur</div>
+        <div class="col col-text-size">Age: 22</div>
+      </div>
+    </div>
+
+    <div class="description" style="width: 90%">
+      <div class="select">
+        <span class="select-text">Sort By:</span>
+        <select class="form-select" style="width: 10%;">
+          <option selected>Recent</option>
+          <option>Oldest</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="images/minion1.jpeg" class="img-fluid image" alt="image1" />
+        </div>
+        <div class="col">
+          <img src="images/minion2.jpeg" class="img-fluid image" alt="image2" />
+        </div>
+        <div class="col">
+          <img src="images/minion3.jpeg" class="img-fluid image" alt="image3" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-text-size col-title">Title:</div>
+        <div class="col col-text-size col-title">Title:</div>
+        <div class="col col-text-size col-title">Title:</div>
+      </div>
+
+      <div class="row">
+        <div class="col col-text-size col-date">Date:</div>
+        <div class="col col-text-size col-date">Date:</div>
+        <div class="col col-text-size col-date">Date:</div>
       </div>
     </div>
   </body>
